@@ -6,9 +6,9 @@ INC = 	-I../cutlass/include \
 LIB = -L cudnn/lib64\
  		-L /usr/local/lib
 
-LK = -lcudnn
+LK = -lcudnn_static
 
-FLAG = -std=c++11 -O3 -w -arch=sm_86 
+FLAG = -std=c++11 -O3 -w -arch=sm_70 --cudart shared
 
 DEP = src/gemm.cuh src/config.h src/layer.cuh
 
