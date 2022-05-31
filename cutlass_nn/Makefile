@@ -8,7 +8,7 @@ LIB = -L cudnn/lib64\
 
 LK = -lcudnn
 
-FLAG = -std=c++11 -O3 -w -arch=sm_70
+FLAG = -std=c++11 -O3 -w -arch=sm_86
 
 DEP = src/gemm.cuh src/config.h src/layer.cuh
 
