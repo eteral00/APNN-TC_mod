@@ -12,17 +12,6 @@ modified from https://github.com/BoyuanFeng/APNN-TC
 }
 ```
 
-## Clone this project.
-```
-git clone --recursive git@github.com:BoyuanFeng/APNN-TC.git
-cd APNN-TC-kernel && git checkout main
-```
-in case of missing `--recursive` during the clone
-```
-git submodule init
-git submodule update
-```
-
 ## OS & Compiler:
 + `Ubuntu 16.04+`
 + `gcc >= 7.5`
